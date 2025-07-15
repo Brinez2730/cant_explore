@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@600;800&display=swap">
+    <link rel="stylesheet" href="denuncia.css">
+    <title>Can't Explore - Denuncia</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="pdf.html" class="nav-link">PDF's</a>
+            <a href="index.html" class="nav-link">Voltar</a>
+            <a href="fluxo.html" class="nav-link">Fluxo</a>
+            <a href="sobre.html" class="nav-link">Sobre</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="title">Can't Explore</h1>
+            <p class="subtitle"> Denuncias </p>
+        </div>
+    </header>
+
+    <section class="mission-section">
+        <div class="container">
+            <p class="mission-text"> Caso voce esteja sofrendo algum tipo de exploração ou conheça alguem que esteja, envie uma denúncia para nós, e ela sera encaminhada para as autoridades o mais rápido possível. </p>
+
+            <br>
+
+        </div>
+    </section>
+
+    <section class="news-section">
+        <div class="container">
+            <h2 class="section-title"> Preencha o campo abaixo: </h2>
+            <div class="news-grid">
+                <article class="news-card">
+
+                    <div class="adjust">
+                     <label for="nome" class="news-title">Seu nome:</h3>
+                     <input type="text" id="name"> <br>
+
+                     <label for="idade" class="news-title">Sua idade:</h3>
+                     <input type="number" id="age"> <br>
+
+                     <label for="locate" class="news-title">Seu endereço:</h3>
+                     <input type="text" id="locate"> <br>
+
+                     <label for="day" class="news-title">Dia do evento:</h3>
+                     <input type="text" id="day"> <br>
+
+                     <label for="fact" class="news-title">Descreva aqui:</h3>
+                     <input type="text" id="fact"> <br>
+
+                     <button class="news-link" id="butao"> <p>Enviar</p> </button>
+                
+                    </div>
+                </article>
+
+               
+            </div>
+        </div>
+    </section>
+
+    <br><br>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Can't Explore&copy; | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+document.getElementById('butao').addEventListener('click', function() {
+    alert('Denuncia enviada! Volte a navegar pela página.');
+});
+</script>
+
+</body>
+</html>
